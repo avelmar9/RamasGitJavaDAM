@@ -11,7 +11,7 @@ public class Main {
 
 		System.out.println("Números de la Lotería Primitiva:");
 
-		// Generar los 6 números principales SIN REPETIDOS
+		// Generar los 6 números principales
 		for (int i = 0; i < 5; i++) {
 			int num;
 			boolean repetido;
@@ -55,6 +55,6 @@ public class Main {
 		} while (true);
 
 		System.out.println("Complementario: " + complementario);
-
+		System.out.println("¡Buena suerte en el sorteo!");
 	}
 }
